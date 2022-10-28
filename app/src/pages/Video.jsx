@@ -24,7 +24,7 @@ const Video = () => {
       {meme ? (
         <figure>
           <h3>{meme.title}</h3>
-          <><VideoMeme/></>
+          <VideoMeme/>
         </figure>
       ) : (
         <div>Not Exists</div>

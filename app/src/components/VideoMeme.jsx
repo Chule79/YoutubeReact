@@ -21,9 +21,7 @@ const VideoMeme = () => {
 
 
   return (
-    <video loop autoPlay>
-      <source src={meme.mediameme} type="video/mp4" />
-    </video>
+    <embed type="video/mp4" src={meme.mediameme} width="250"  height="250"/>
   );
 };
 export default VideoMeme;
